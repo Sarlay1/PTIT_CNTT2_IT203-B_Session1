@@ -16,11 +16,11 @@ public class Bai1 {
             System.out.println("Tuổi của bạn là: " + tuoi);
 
         } catch (NumberFormatException e) {
-            System.out.println("Lỗi: Vui lòng nhập năm sinh bằng số! Ví dụ: 2003");
+            System.out.println(" Vui lòng nhập năm sinh bằng số");
 
         } finally {
             sc.close();
-            System.out.println("Thực hiện dọn dẹp tài nguyên trong finally...");
+            System.out.println("Thực hiện dọn dẹp tài nguyên");
         }
     }
 }
